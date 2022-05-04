@@ -35,7 +35,7 @@
 
 - **Gafi Architecture**:
   
-  **Inside Players**: Players have to join Gafi Pool to get the privileges. When they are in the Gafi Pool, they won't bother about the transaction fee but they can only make the limited of transactions that are handled by Gafi-TX, there are three different pool services [Upfront](https://wiki.gafi.network/learn/upfront-pool), [Staking](https://wiki.gafi.network/learn/staking-pool) and [Sponsored](https://wiki.gafi.network/learn/sponsored-pool). Please visit Gafi Wiki to get more information about [Gafi Network Structure](https://wiki.gafi.network/learn/gafi-network-structure) and [Gafi Pool](https://wiki.gafi.network/learn/gafi-pool). The Gafi Pool will ban 'bad' players with the Autoban mechanism.
+  **Inside Players**: Players have to join Gafi Pool to get the privileges. When they are in the Gafi Pool, they won't bother about the transaction fee but they can only make the limited of discounted transactions that are handled by Gafi-TX, there are three different pool services [Upfront](https://wiki.gafi.network/learn/upfront-pool), [Staking](https://wiki.gafi.network/learn/staking-pool) and [Sponsored](https://wiki.gafi.network/learn/sponsored-pool). Please visit Gafi Wiki to get more information about [Gafi Network Structure](https://wiki.gafi.network/learn/gafi-network-structure) and [Gafi Pool](https://wiki.gafi.network/learn/gafi-pool). The Gafi Pool will ban 'bad' players with the Autoban mechanism.
   
   **Outside Player**: As a player outside Gafi Pool, you can do anything with no restrictions, but with the 'high' transaction fee. 
   
