@@ -3,9 +3,9 @@
 
 - **Project Name:** Gafi Network - The Network of Game Finance
 - **Team Name:** Cryptoviet
-- **Home Site:** https://gafi.network/
+- **Wiki:** https://wiki.gafi.network/
 - **Payment Address:** 0x7fD4b72d3Bf681C2e80D6076D7997B21DEf45130 (USDT)
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -30,37 +30,35 @@
 ### Project Details
 
 
-![Gafi Network Architecture](https://github.com/cryptoviet/he-chain/blob/dev/HE-Chain%20Architecture.jpg)
+![Gafi Network Architecture](https://github.com/cryptoviet/he-chain-assets/blob/main/Gafi%20Network%20Architecture.jpg)
 
 
 - **Gafi Architecture**:
-
-  Two parts of the Gafi Network are Heroes and Empires. The Empires are inside the red rounded rectangle and the outside is the Heroes.
   
-  **Empires**:
+  **Inside Players**: Players have to join Gafi Pool to get the privileges. When they are in the Gafi Pool, they won't bother about the transaction fee but they can only make the limited of transactions that are handled by Gafi-TX, there are three different pool services [Upfront](https://wiki.gafi.network/learn/upfront-pool), [Staking](https://wiki.gafi.network/learn/staking-pool) and [Sponsored](https://wiki.gafi.network/learn/sponsored-pool). Please visit Gafi Wiki to get more information about [Gafi Network Structure](https://wiki.gafi.network/learn/gafi-network-structure) and [Gafi Pool](https://wiki.gafi.network/learn/gafi-pool). The Gafi Pool will ban 'bad' players with the Autoban mechanism.
   
-  Players have to join Empires to get the privileges. When they are in the Empires, they won't bother about the transaction fee but they can only make the limited of transactions per minute that are handled by TX-Handler, and they will be frozen amount of token or charged the amount of fee based on the period of time they stay in the Empire Pool. The Empire Pool will also ban 'bad' players with the Autoban mechanism.
-  
-  **Heroes**:
-  
-  As heroes, players can do anything with no restrictions, but with the 'high' transaction fee. 
+  **Outside Player**: As a player outside Gafi Pool, you can do anything with no restrictions, but with the 'high' transaction fee. 
   
   
 - **Pallet structure**
 
   The project is broken down into following pallets:
 
-  proof-mapping: mapping Substrate (AccountId) address with EVM address (H160) by given signature.
+  proof-address-mapping: mapping Substrate (AccountId) address with EVM address (H160) by given signature.
 
-  pallet-option-pool: Manage players in the Empires by limiting the number of players, changing upfront every 'x' amount of time (x depends on the number of players staying in the pool and number of projects running on Gafi, x will be determined when testnet goes live). Ban players with bad activities followed by the DAO rules.
+  upfront-pool: Changing upfront every 'x' amount of time (x depends on the number of players staying in the pool and the number of projects running on Gafi, x will be determined when testnet goes live) to get the discount on the transaction fee.
   
-  pallet-staking-pool: Freeze the amount of token to reduce the transaction fee.
+  staking-pool: Freeze the amount of token to reduce the transaction fee.
+  
+  sponsored-pool: Provide the service to help the game-creator appeal to their users, the sponsored pool created by the game-creator to pay a part of the transaction fee when players deploy their smart contracts.
 
-  pallet-tx-handler: Manage player's transactions on the Empires, every minute or hour players can only make 'x' transactions. Reduce 'y' percentage of transaction fee. 'x' and 'y' will be determined by DAO.
+  gafi-tx: Manage player's transactions on the Gafi Pool, every minute or hour players can only make 'x' discounted transactions. Reduce 'y' percentage of transaction fee. 'x' and 'y' will be and should be determined by DAO.
+  
+  game-creator: Control the transaction fee to reward the game-creator.
+  
+  pallet-cache: Store runtime data temporarily.
 
   pallet-player: Handle player information likes id, name, friends...
-
-  pallet-evm: create an Ethereum compatible environment for deploying Solidity code.
 
 
 - **DAO**
@@ -69,15 +67,15 @@
 
     1. Autoban mechanism
   
-     There are several rules of Empires that players must follow when they join the pool. These are ideas to keep the pool 'as clean as possible' such as ban/kick     AFK(away from keyboard) players, ban/kick players on the Spamming Blacklist.
+     There are several rules of Gafi Network that players must follow when they join the pool. These are ideas to keep the pool 'as clean as possible' such as ban/kick AFK(away from keyboard) players, ban/kick players on the Spamming Blacklist.
   
-    2. The Empire Pool fee
+    2. The Gafi Pool fee
   
-     Pool fee is another base idea to keep the pool clean, with a reasonable fee determined by DAO, the Empires Pool can prevent the network from malicious accounts. When many players join the pool, the total network fee charged by the pool can be significant to grow the ecosystem by granting the projects. 
+     Pool fee is another base idea to keep the pool clean, with a reasonable fee determined by DAO, the Gafi Pool can prevent the network from malicious accounts. When many players join the pool, the total network fee charged by the pool can be significant to grow the ecosystem by granting the projects. 
   
-    3. The number transaction limit of TX-Handler
+    3. The number discount transaction limit of Gafi-TX
 
-     The idea of TX-Handler is to protect the network from the DDOS, also determining the right number is important because if the number is not appropriate, it's can drive away many goof projects for example. Currently, our Heroes & Empires only need a maximum of 10 TXs/minute but another good PvP game can require 30 TXs/minutes, at this point the limit number is 30 is reasonable for the Gafi Network.
+     The idea of Gafi-TX is to protect the network from the DDOS, also determining the right number is important because if the number is not appropriate, it's can drive away many good projects for example. Currently, our Heroes & Empires only need a maximum of 10 TXs/minute but another good PvP game can require 30 TXs/minutes, at this point the limit number is 30 is reasonable for the Gafi Network.
   
 Although these ideas would be different in blockchain, we must deploy Heroes & Empires on Gafi to determine those numbers.
 
@@ -168,7 +166,7 @@ Whitepaper: Coming soon
 
 ## Development Roadmap :nut_and_bolt:
 
-![Gafi Network Development Roadmap](https://github.com/cryptoviet/he-chain-assets/blob/main/HE-Chain%20Development%20Roadmap%20v2.jpg)
+![Gafi Network Development Roadmap session 2](https://github.com/cryptoviet/he-chain-assets/blob/main/Gafi%20Network%20Development%20Roadmap%20session%202.jpg)
 
 ### Overview
 
@@ -211,19 +209,19 @@ At this milestone, we build modules for Player, Empires. The requirements will f
 | 5. | Weights/Benchmarking | implement benchmarking for pallets to determine appropriate weights |
 
 
-### Milestone 2 — DAO + TX-Handler + Gafi Testnet
+### Milestone 2 — DAO + Gafi-TX + Gafi Testnet
 
 - **Estimated duration:** 3 month
 - **FTE:**  1.2
 - **Costs:** 19,000 USD
 
-In this milestone, we build modules DAO, TX-Handler, Gafi Testnet, the requirements will fall into acceptance criteria:
+In this milestone, we build modules DAO, Gafi-TX, Gafi Testnet, the requirements will fall into acceptance criteria:
 + Gafi Network Testnet launch with at least 5 nodes
 + Build DAO to vote on-chain governance
 + Determine the 'x' number of limit transactions per minute by Testnet and vote by on-chain governance
-+ TX-Handler manage the transaction limit with the 'x' above
++ Gafi-TX manage the transaction limit with the 'x' above
 + Determine the 'y' percentage to reduce transaction fee by Testnet and vote by on-chain governance
-+ TX-Handler reduce 'y' percentage with the number above
++ Gafi-TX reduce 'y' percentage with the number above
 + Unittest
 + Code coverage > 80%
 + Dispatchable functions must have comments
