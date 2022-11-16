@@ -21,6 +21,7 @@
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
+  - [Office Hours](#office-hours)
 - [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
   - [Treasury](#treasury)
   - [Hackathons](#hackathons)
@@ -28,7 +29,7 @@
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot, Kusama, [Substrate](https://github.com/paritytech/substrate) and [ink!](https://github.com/paritytech/ink)**. For more information about the Web3 Foundation, please visit the [About page](https://web3.foundation/about/) on our website.
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot and Kusama**. For more information about the Web3 Foundation, please visit the [About page](https://web3.foundation/about/) on our website.
 
 ### Guidelines
 
@@ -38,7 +39,7 @@ Generally, your project will have better chances to be accepted if:
 
 - It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
 - You can demonstrate that the project will be **maintained** after completion of the grant, be it through an obvious commitment to the technology from your side, additional funding sources or an existing business model.
-- Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine these for past activity and code quality. Naturally, you can also link to projects on other platforms.
+- Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
 - You can clearly present how your project stands out among competitors or implements technology that doesn't exist in the ecosystem yet.
 
@@ -46,6 +47,7 @@ Additionally, it must fulfill the following requirements:
 
 - All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full functionality. We prefer Apache 2.0, but GPLv3, MIT or Unlicense are also acceptable.
 - We do not award grants for projects that have been the object of a successful token sale.
+- Applications must not mention a specific token. Furthermore, the focus of the application should lie on the software that is being implemented/research being carried out as part of the grant, and less on your project/venture/operation. For the purpose of the application and delivery, think about how others might also benefit from your work.
 - As a general rule, teams are asked to finish a grant before applying for another one.
 - Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
@@ -59,7 +61,7 @@ We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and based on th
 
 ### Project ideas
 
-An overview of existing projects in the Web 3.0 Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](docs/polkadot_stack.md), as well as a list of previously accepted applications [here](docs/accepted_grant_applications.md).
+An overview of existing projects in the Web 3.0 Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](https://wiki.polkadot.network/docs/build-open-source), as well as a list of previously accepted applications [here](docs/accepted_grant_applications.md).
 
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
@@ -81,15 +83,17 @@ The committee consists of individuals who know the funding priorities of the Pol
 
 In cases where a niche expert opinion is desirable, one of the committee members may request such a review.
 
+- [Santiago Balaguer](https://github.com/SBalaguer)
 - [Aeron Buchanan](https://github.com/aeronbuchanan)
 - [Gautam Dhameja](https://github.com/gautamdhameja)
-- [Marcin Górny](https://github.com/mmagician)
 - [David Hawig](https://github.com/Noc2)
+- [Diogo Mendonça](https://github.com/dsm-w3f)
 - [Sebastian Müller](https://github.com/semuelle)
 - [Bill Laboon](https://github.com/laboon)
+- [Keegan Quigley](https://github.com/keeganquigley)
+- [Raul Romanutti](https://github.com/rrtti)
 - [Aleixo Sánchez](https://github.com/alxs)
 - [Seraya Takahashi](https://github.com/takahser)
-- [Reto Trinkler](https://github.com/retotrinkler)
 - [Benjamin Weiß](https://github.com/BenWhiteJam)
 - [Gavin Wood](https://github.com/gavofyork)
 
@@ -97,11 +101,12 @@ In cases where a niche expert opinion is desirable, one of the committee members
 
 Evaluators are individuals able to evaluate the technology delivered as a result of the Grants Program. The committee has the right to add or remove evaluators on the basis of supermajority.
 
-- [Marcin Górny](https://github.com/mmagician)
-- [Ashley Grevelink](https://github.com/cruikshankss)
-- [Robert Hambrock](https://github.com/Lederstrumpf)
+- [Nabil Abdellaoui](https://github.com/randombishop)
+- [Matteo Casonato](https://github.com/0xCaso) 
 - [David Hawig](https://github.com/Noc2)
+- [Diogo Mendonça](https://github.com/dsm-w3f)
 - [Sebastian Müller](https://github.com/semuelle)
+- [Keegan Quigley](https://github.com/keeganquigley)
 - [Aleixo Sánchez](https://github.com/alxs)
 - [Seraya Takahashi](https://github.com/takahser)
 
@@ -109,9 +114,11 @@ Evaluators are individuals able to evaluate the technology delivered as a result
 
 The Operations Team takes care of legal documents, invoicing and remittances.
 
+- [Melanie Diener](https://github.com/meldien)
+- [Federica Dubbini](https://github.com/fededubbi)
 - [Kasper Mai Jørgensen](https://github.com/KasperJor)
 - [Rouven Pérez](https://github.com/RouvenP)
-- [Federica Dubbini](https://github.com/fededubbi)
+
 
 ## :level_slider: Levels
 
@@ -127,7 +134,7 @@ The W3F Grants Program offers different grant levels to help you best depending 
 ### :baby_chick: Level 2<!-- omit in toc -->
 
 - **Target:** Small teams/start-ups
-- **Amount:** Up to $50,000
+- **Amount:** Up to $30,000
 - **Requirements:** 3 approvals
 - **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines), [Grants Program badge](./docs/grant-badge-guidelines.md), fast track to [Substrate Builders Program](https://www.substrate.io/builders-program/)
 
@@ -135,17 +142,18 @@ The W3F Grants Program offers different grant levels to help you best depending 
 
 - **Target:** Companies/foundations with a proven track record
 - **Amount:** Unlimited
-- **Requirements:** Pitch call + 5 approvals (for > $100k Web3 Foundation Council approval)
+- **Requirements:** 5 approvals (for >$100k: Web3 Foundation Council approval + Pitch call)
 - **Benefits:** All of the above + VC introductions
 
 ## :pencil: Process
 
-> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in Bitcoin, USDT, DAI or kUSD. If you want to apply in **private**  and/or you need to be paid out in **fiat**, you can apply [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). Note that this is generally a slower process and imposes stricter requirements on applicants.
+> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in Bitcoin, USDT (on Kusama or Ethereum), USDC/DAI (Ethereum) or aUSD (Acala). If you want to apply in **private**  and/or you need to be paid out in **fiat**, you can apply [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). Note that this is generally a slower process and imposes stricter requirements on applicants.
 
 ### 1. Application
 
+   0. Please read our [FAQs](https://github.com/w3f/Grants-Program/blob/master/docs/faq.md), [category guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/grant_guidelines_per_category.md), [announcement guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/announcement-guidelines.md) and [Terms & Conditions](https://github.com/w3f/Grants-Program/blob/master/docs/T%26Cs.md) to familiarize yourself with the subtleties of grants, applications and the program as a whole.
    1. [Fork](https://github.com/w3f/Grants-Program/fork) this repository.
-   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/w3f/Grants-Program/master/applications/application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
+   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/w3f/Grants-Program/master/applications/application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**. In the case of a maintenance application, use the maintenance template ([`maintenance template`](maintenance/maintenance-template.md)) instead.
    3. Name the new file after your project: `project_name.md`.
    4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Grant guidelines for most popular grant categories](docs/grant_guidelines_per_category.md) and make sure your deliverables present a similar same level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](https://github.com/w3f/Grants-Program/blob/master/applications/project_aurras_mvp_phase_1.md), [2](https://github.com/w3f/Grants-Program/blob/master/applications/project_bodhi.md), [3](https://github.com/w3f/Grants-Program/blob/master/applications/pontem.md), [4](https://github.com/w3f/Grants-Program/blob/master/applications/spartan_poc_consensus_module.md). Naturally, if you're only applying for a smaller grant that only consists of, say, UI work, you don't need to provide as much detail.
    5. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
@@ -161,7 +169,7 @@ The W3F Grants Program offers different grant levels to help you best depending 
 
 ### 3. Milestone Delivery and Payment
 
-   1. Milestones are to be delivered on the [Grant Milestone Delivery](https://github.com/w3f/Grant-Milestone-Delivery/) repository following the [process](https://github.com/w3f/Grant-Milestone-Delivery#mailbox-milestone-delivery-process) described therein.
+   Milestones are to be delivered on the [Grant Milestone Delivery](https://github.com/w3f/Grant-Milestone-Delivery/) repository following the [process](https://github.com/w3f/Grant-Milestone-Delivery#mailbox-milestone-delivery-process) described therein.
 
 ### Changes to a Grant after Approval
 
@@ -171,11 +179,11 @@ The W3F Grants Program offers different grant levels to help you best depending 
 
 ## :mailbox_with_mail: Suggest a Project
 
-If you think that we should support the development of certain tools or projects that aren't in the Polkadot/Kusama [tech stack](docs/polkadot_stack.md), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects that aren't in the Polkadot/Kusama [tech stack](https://wiki.polkadot.network/docs/build-open-source), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
 
 **Submit an idea:**
 
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/w3f/Grants-Program/issues/new) or add it to the [tech stack](docs/polkadot_stack.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
+If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/w3f/Grants-Program/issues/new) or add it to the [tech stack](https://wiki.polkadot.network/docs/build-open-source) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 **Submit an RFP (Request for Proposals):**
 
@@ -203,6 +211,7 @@ The process of applying for a Maintenance Grant is similar to what was already o
 Then, at the end of each month, you will need to provide a comprehensive report of the work done, including the list of issues/bugs/pull requests worked on, time spent on each of these & finally the associated cost. It is quite likely that the time allocation & cost will vary from month to month, depending on the nature of the project you're contributing to. The delivery process and format should follow that of a typical [milestone delivery](https://github.com/w3f/Grant-Milestone-Delivery#mailbox-milestone-delivery-process), as will the processing of the payment.
 
 Please note that:
+
 - Maintenance grants, as the name suggests, are meant to allow teams/individuals to maintain a certain project, and not to continue its development or implement larger features. Please use the traditional application process for this purpose.
 - The 1-month timeframe is just a guideline. If you find it unsuitable for you or the chosen project for any reason, feel free to adjust as seen fit and point this out in your application.
 - Please bear in mind that the Grants Committee might be stricter in accepting maintainers when compared to typical grants, mostly selecting for applicants with proven experience in the relevant tech stacks.
@@ -228,15 +237,59 @@ Besides, we also have a **community room for all grant recipients**. Head over t
 
 - [W3F Grants Community](https://matrix.to/#/!XpynPDLusWUWfDpaqr:matrix.org?via=web3.foundation&via=matrix.org)
 
+### Office Hours
+
+Web3 Foundation Grants Office Hours are a chance to ask the grants team questions regarding a specific (potential) grant application. It offers
+- general guidance regarding the grants program, 
+- some quick initial feedback and
+- help how to navigate the ecosystem. 
+
+Apply for Office Hours if you 
+- need feedback before submitting an application,
+- want to find out what kind of support there might be available or
+- need help finding the resources you need.
+
+It is **not** a chance to pitch your project, especially since only a small subset of the committee will participate in the call. To apply, please fill out the [Office Hours :alarm_clock: form](https://forms.gle/54xkiqU37WwdN9UR6). Be as specific as possible, so we can help you more quickly. We will get back to you with follow-up questions or a link for booking a timeslot.
+
+
 ## :rocket: Alternative Funding Sources
 
-Some funding sources might be more and some less suitable for your project throughout its various stages. We encourage you to explore alternative funding options listed below. Please note, however, that you should not seek to fund the **same scope of work** from multiple sources and that any team found doing so will have its Web3 Foundation support terminated.
+We encourage you to explore the alternative funding options listed below. Please note, however, that you should not seek to fund the **same scope of work** from multiple sources and that any team found doing so will have its Web3 Foundation support terminated.
+
+### Substrate Builders Program vs Treasury vs Web3 Grants
+
+The following flowchart gives a rough, oversimplified view of how the W3F Grants Program, the Polkadot and Kusama treasuries and Parity's Substrate Builders Program relate, and where your project might fit best. Note that this diagram does not include any of the [parachain-specific grants/builders programs](#other-grant-programs) other organisations are offering.  
+
+```mermaid
+flowchart LR
+    A(Project Focus)
+    A -->|Development| B[Stage of Development]
+    A -->|Research| C[Grants Program]
+    A -->|Other| D[Treasury]
+    B -->|Existing POC| E[Goal of the Application]
+    B -->|No POC| F[Grants Program]
+    E -->|Funding| G[Treasury or Grants Program]
+    E -->|Support| H[Substrate Builders Program]
+    style C stroke:#e83e8c,stroke-width:2px,stroke-dasharray: 5 5
+    style D stroke:#e83e8c,stroke-width:2px,stroke-dasharray: 5 5
+    style F stroke:#e83e8c,stroke-width:2px,stroke-dasharray: 5 5
+    style H stroke:#e83e8c,stroke-width:2px,stroke-dasharray: 5 5
+    
+    click C "https://github.com/w3f/Grants-Program#pencil-process" "You are already in the right place :)"
+    click D "https://polkadot.network/treasury" "https://polkadot.network/treasury/" _blank
+    click F "https://github.com/w3f/Grants-Program#pencil-process" "You are already in the right place :)"
+    click H "https://www.substrate.io/builders-program/" "https://www.substrate.io/builders-program/" _blank
+```
+
+### Substrate Builders Program 
+
+The [Substrate Builders Program](https://substrate.io/ecosystem/substrate-builders-program/) directly supports you by connecting you with Parity’s extensive resources. 
 
 ### Treasury
 
 The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. Both [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) offer everyone the opportunity to apply for funding via the treasury. See:
 
-- [Treasury Wiki](https://wiki.polkadot.network/docs/en/learn-treasury)
+- [Treasury](https://polkadot.network/treasury/)
 - [Polkadot Treasury Guide](https://docs.google.com/document/d/1IZykdp2cyQavcRyZd_dgNj5DcgxgZR6kAqGdcNARu1w)
 - [Kusama Treasury Guide](https://docs.google.com/document/d/1p3UQUjph5t8TVaWnTkfrI5mE-BABnM9Xvtuhdlhl6JE)
 
@@ -250,12 +303,15 @@ The best way to find out about upcoming hackathons is by following Polkadot on t
 
 Below is a list of other grant programs in the Polkadot/Substrate ecosystem:
 
-- [Darwinia Grants Program](https://docs.darwinia.network/developers/dev-bounty)
-- [Moonbeam Grants Program](https://moonbeam.foundation/grants/)
-- [Edgeware Grants and Bounties](https://github.com/edgeware-builders/construction-projects)
-- [Crust Grants Program](https://github.com/crustio/Crust-Grants-Program)
-- [HydraDX Grants and Bounties](https://docs.hydradx.io/new_deal/)
+- [Acala Grants Program](https://acala.network/ecosystem-program)
 - [Astar / Shiden Network Builders Program](https://github.com/PlasmNetwork/Builders-Program)
+- [Crust Grants Program](https://github.com/crustio/Crust-Grants-Program)
+- [Darwinia Grants Program](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md#grant-program)
+- [Edgeware Grants and Bounties](https://gov.edgewa.re/discussion/1132-edgeware-proposal-process-and-template)
+- [HydraDX Grants and Bounties](https://docs.hydradx.io/new_deal/)
+- [Interlay Labs Grants Program](https://github.com/interlay/Grants-Program) 
+- [Moonbeam Grants Program](https://moonbeam.foundation/grants/)
+- [OAK’s Developer Grants](https://oak.tech/community/grants/)
 - [Picasso / Composable Grants Program](https://grants.composable.finance)
 - [SubQuery Grants Programme](https://subquery.network/grants)
 
